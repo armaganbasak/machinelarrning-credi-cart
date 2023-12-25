@@ -10,7 +10,7 @@ xgboost==1.7.3
 flask==2.2.2
 joblib==1.2.0
 pydotplus==2.0.2
-graphviz==2.50.0
+graphviz==0.16
 skompiler==0.7
 plotly==5.9.0
 missingno==0.5.2
