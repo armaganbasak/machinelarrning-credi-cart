@@ -25,7 +25,9 @@ tab_home,tab_model = st.tabs(["Ana Sayfa","Model"])
 
 column_1,column_2 = tab_home.columns(2)
 
-column_1.markdown('''Bankaların bir kişiye ilişkin yalnızca bazı bilgilere dayanarak kredi kartınızı onaylayıp onaylamayacağını nasıl bildiklerini belirlemeyi amaçlamaktadır. Farklı ML modellerini kullanarak, kredi kartı başvurusunun onaylanıp onaylanmayacağını hangi model ve faktörlerin etkileyeceğini ve bunların nasıl tahmin edileceğini araştırmaya karar verdik.
+column_1.markdown('''Kredi kartı başvuruları, finansal dünyada önemli bir adımdır ve başvuru sonuçlarını beklemek pek çok kişi için heyecan verici, ancak bir o kadar da stresli bir deneyim olabilir. Biz, bu stresi ortadan kaldırmak ve kullanıcılarımıza anında bilgi sağlamak için bir makine öğrenmesi modeli geliştirdik.
+
+Artık kredi kartı başvurularınızın olumlu ya da olumsuz olma olasılığını hemen öğrenebilir, finansal geleceğinizi anlık olarak değerlendirebilirsiniz. Bu yenilikçi çözüm sayesinde, kredi kartı başvurularınızın sonuçlarına dair belirsizlikleri geride bırakın. Finansal geleceğinizi şekillendirmek için adım atın, hedeflerinize bir adım daha yaklaşın!
 ''')
 
 column_1.image("banka.jpg")
